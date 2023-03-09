@@ -116,13 +116,10 @@ new Vue({
       setTimeout(function () {
         vm.monsterActionClass = "normal";
       }, 1250);
-      vm.log.push(
-        //vm.log.unshift(
-        {
-          class: "alert-info",
-          message: "You attack with special attack: 25 HP",
-        }
-      );
+      vm.log.push({
+        class: "alert-info",
+        message: "You attack with special attack: 25 HP",
+      });
       setTimeout(function () {
         vm.log.push({
           class: "alert-danger",
